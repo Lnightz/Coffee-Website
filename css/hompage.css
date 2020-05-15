@@ -60,12 +60,10 @@ header .nav-link{
 header{
   background: url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/07/section-title-bg-4.jpg');
   position: relative;
-  width: 100%;
-  
-  z-index: 1000000;
+  width: 100%; 
 }
 
-header .text-shadow{
+.text-shadow{
     content: "";
     display: block;
     width: 100%;
@@ -79,6 +77,25 @@ header .text-shadow{
 
 header nav{
   z-index: 999999;
+}
+
+footer{
+  background: url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/07/section-title-bg-4.jpg');
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  
+}
+
+footer .footer-bg{
+  z-index: 99999999;
+  color: white !important;
+  font-weight: 400;
+}
+
+footer .follow-us a{
+  color: white !important;
 }
 
 .order-now{
@@ -119,11 +136,18 @@ header .input-group.dropdown-item{
   position: relative;
   width: 100%;
   height: 100%;
+  border-radius: 10px 10px 0 0 ;
+  box-shadow: 2px 5px 10px rgb(155, 155, 155);
+  
 }
 
 .product-image{
  display: block;
  position: relative;
+}
+
+.product-image img{
+  border-radius: 10px 10px 0 0;
 }
 
 .add-to-cart {
@@ -164,8 +188,13 @@ header .input-group.dropdown-item{
 
 .best-sale{
   position: absolute;
-  top:5px;
-  left: 10px;
-  background-color: orange;
-  padding: 5px 5px;
+  top: 0;
+  left: -10px;
+  background-color: transparent;
+  /* padding: 5px 5px; */
+}
+
+.best-sale img {
+  width: 96px;
+  height: 96px;
 }
