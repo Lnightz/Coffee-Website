@@ -1,8 +1,4 @@
 
-footer  {
-  background-color: rgb(31, 29, 29);
-  color: white;
-}
 .center {
   align-content: center;
   text-align: center;
@@ -19,6 +15,11 @@ footer  {
   padding-top: 20px;
   padding-bottom: 40px;
   font-weight: bolder;
+}
+
+.seperate-line{
+  border: 1px solid #bc925f ;
+  /* box-shadow: 0 5px 5px #bc925f; */
 }
 
 div.brg::before {
@@ -40,6 +41,7 @@ div.brg::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .navbar-brand img{
   width: 100px;
   height: 60px;
@@ -125,7 +127,7 @@ header .input-group.dropdown-item{
 }
 
 .carousel-item img{
-  height: 680px !important;
+  height: 700px !important;
 }
 
 .far.fa-star{
