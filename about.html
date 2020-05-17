@@ -2,52 +2,86 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/about.css" />
     <title>About us</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i|Noto+Sans:400,400i,700"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" href="css/navbar.css">
 
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="d-flex justify-content-start">
-            <a class="navbar-brand" href="#">
-              <img src="./image/93890193_253098232536670_1224107907478454272_n.png" width="50" height="50" class="d-inline-block align-center" alt="">
-              Barista
-            </a>
-          </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="hompage.html">
+            <img src="image/logov2.png" 
+              class="d-inline-block align-center" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ">
-              <li class="nav-item active">
-                <a class="nav-link" href="./hompage.html">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active hover-effect">
+                <a class="nav-link" href="hompage.html">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./promotion.html">Promotion</a>
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">News</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./testmenu.html">Menu</a>
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">Menu</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">Reservation</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./feedback.html">Feedback</a>
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">Feedback</a>
               </li>
             </ul>
+            <div class="navbar-nav ml-auto">
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-sign-in-alt"></i> Login
+                </a>
+              </li>
+              <li class="nav-item hover-effect">
+                <a class="nav-link" href="#">
+                  <i class="far fa-user"></i> signup
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <i class="fas fa-search"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                   <div class="input-group dropdown-item">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                      </div>
+                   </div>
+                </div>
+              </li>
+            </div>
           </div>
-          <div class="d-flex justify-content-end">
-            <a href="">
-              <img src="./image/order-now.png" class="d-inline-block align-center" alt="">
-            </a>
-          </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+      <div class="text-shadow"></div>
+    </header>
 
     <!-- BODY -->
     <div class="icon-bar">
@@ -81,11 +115,12 @@
             <iframe class="map-iframe"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1236023274328!2d106.80402001462339!3d10.878202492252488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8afbfc45a51%3A0x1398270b44ee3abf!2sKTX%20khu%20A%20-%20%C4%90HQG%20TPHCM!5e0!3m2!1svi!2s!4v1589094542591!5m2!1svi!2s"
                 frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-            <p>BARISTAR <br> Phone 01234567 <br> Address ...</p>
+                tabindex="0">
+              </iframe>
         </div>
     </div>
     
+
 </body>
 <script>
     function responsiveBanner() {
@@ -99,7 +134,10 @@
 </script>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
   

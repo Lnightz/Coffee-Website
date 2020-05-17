@@ -18,6 +18,9 @@ header .nav-link{
 header{
     background: url(../image/section-title-bg-4.jpg);
     position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     width: 100%; 
 }
 
@@ -112,3 +115,11 @@ footer .follow-us a{
     background-color: transparent;
 }
 
+.center {
+    align-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+.padding {
+    padding-top: 20px;
+}

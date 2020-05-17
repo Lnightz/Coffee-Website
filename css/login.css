@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
     margin:0;
     padding:0;
     border:none;
     font-family: 'Open Sans', sans-serif;
+
 }
 body {
-    overflow: hidden;
     background-color: #ededed;
 }
 
@@ -36,13 +38,13 @@ h2 {
 }
 i.fab.fa-app-store-ios {
     display: block;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     font-size: 28px;
 } 
 
 label {
     margin-left: -150px;
-    margin-top:  0px;
+    margin-top:10px;
     display: block;
     font-weight: lighter;
 }
@@ -50,8 +52,6 @@ label {
 input{
     display: block;
     border-bottom: 2px solid #00BCD4;
-    margin-top: 6px;
-    margin-bottom: 50px;
     outline-style: none;
 }
 input[type="text"] {
@@ -71,8 +71,7 @@ button#submit {
     border-radius: 10px;
     border: none;
     position: absolute;
-    bottom: 120px;
-    left:  
+    bottom: 100px;
     cursor: pointer;
     background: linear-gradient(to right, #fc00ff, #00dbde);
 }
@@ -87,8 +86,7 @@ button#dk {
     border-radius: 10px;
     border: none;
     position: absolute;
-    bottom: 80px;
-    left:  
+    bottom: 60px;
     cursor: pointer;
     background: linear-gradient(to right, #fc00ff, #00dbde);
 }
@@ -103,22 +101,17 @@ button#qmk {
     border-radius: 10px;
     border: none;
     position: absolute;
-    bottom: 40px;
-    left:  
+    bottom: 20px;
     cursor: pointer;
 }
 
-footer  {
-    background-color: rgb(31, 29, 29);
-    color: white;
-  }
-  .center {
+.center {
     align-content: center;
     text-align: center;
     padding-bottom: 15px;
-  }
-  .padding {
+}
+.padding {
     padding-top: 20px;
-  }
+}
 
 
