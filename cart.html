@@ -85,7 +85,7 @@
               <div class="row my-5">
                   <div class="col-xl-8 col-md-8 col-sm-12">
                       <div class="bg-white inform-zone">
-                        <h3>Thông tin người nhận</h3>
+                        <h5>Thông tin người nhận</h5>
                         <div class="name-and-phone d-flex justify-content-between">
                             <div class="input-group name ">
                                 <div class="input-group-prepend">
@@ -116,7 +116,7 @@
                         <p class="cart-note"> <strong><u>Lưu ý:</u></strong> Trong trường hợp hệ thống không hiển thị đúng phí giao hàng Quý khách vui lòng gọi cho quán
                             để được hỗ trợ. Hotline hỗ trợ khách hàng 19001516
                         </p>
-                        <h3>Chọn hình thức thanh toán</h3>
+                        <h5>Chọn hình thức thanh toán</h5>
                         <div class="pay-option d-flex justify-content-start">
                             <input type="radio" class="pay-option-radio" name="pay-option">
                             <p class="pay-option-description">Thanh toán khi nhận hàng</p>
@@ -133,11 +133,48 @@
                   </div>
                   <div class="col-xl-4 col-md-4 col-sm-12">
                       <div class="bg-white inform-zone">
-                        <button class="btn btn-primary float-right">
-                            <a href="#">Thêm món</a>
-                        </button>
-                        <h3>Chi tiết đơn hàng</h3>
+                        <div class="row d-flex justify-content-between">
+                          <h5>Chi tiết đơn hàng</h5>
+                          <a href="#" class="btn btn-sm btn-primary add-more mr-3 align-self-center">Thêm món</a>
+                        </div>
                         <hr>
+                        <div class="product-order d-flex justify-content-between">
+                          <div class="product-quantity-and-name d-flex">
+                            <div class="product-quantity">1</div>
+                            <div class="product-name">Espresso</div>
+                          </div>
+                          <div class="product-prices-and-cancel d-flex">
+                            <div class="product-prices">50.000 <span>đ</span></div>
+                            <button class="product-cancel">X</button>
+                          </div>
+                        </div>
+                        <div class="cost d-flex justify-content-between my-2">
+                          <p class="cost-text">Cộng</p>
+                          <div class="cost-number">50.000<span>đ</span></div>
+                        </div>
+                        <div class="shipping-cost d-flex justify-content-between">
+                          <p class="shipping-cost-text">Phí vận chuyển</p>
+                          <div class="shipping-cost-number">0<span>đ</span></div>
+                        </div>  
+                        <div class="discount-code">
+                          <p class="discount-code-text" style="margin-bottom: 0 !important">Nhập mã khuyến mãi:</p>
+                          <div class="input-group input-group-sm mt-0s">
+                            <input type="text" class="form-control" placeholder="Nhập mã khuyến mại tại đây">
+                            <div class="input-group-append">
+                              <button class="btn btn-secondary discount-btn">Áp dụng</button>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <h5 class="total-cost d-flex justify-content-between ">
+                          <div class="total-cost-text">
+                            Tổng cộng
+                          </div>
+                          <div class="total-cost-number">
+                            50.000<span>đ</span>
+                          </div>
+                        </h5>
+                        <button class="btn btn-success order-btn">Đặt hàng</button>
                       </div>
                   </div>
               </div>
