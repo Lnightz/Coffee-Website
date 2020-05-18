@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 .center {
   align-content: center;
   text-align: center;
@@ -19,7 +19,7 @@
   padding-bottom: 40px;
   font-weight: bolder;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .seperate-line{
