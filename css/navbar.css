@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 .navbar-brand img{
     width: 100px;
     height: 60px;
@@ -5,7 +9,19 @@
 }
 
 .navbar-dark{
-    background-color: rgba(0, 0, 0,0.1) !important;
+    background-color: transparent !important;
+    transition: .5s ease;
+}
+
+.navbar-dark.scrolled{
+    background-color: black !important;
+    /* background: url(../image/section-title-bg-4.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    z-index: 9999999; */
 }
 
 header .nav-link{
@@ -15,13 +31,18 @@ header .nav-link{
     /* text-shadow: 0px 5px 10px white; */
 }
 
-header{
+/* header{
     background: url(../image/section-title-bg-4.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%; 
+} */
+
+header .navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .text-shadow{
@@ -122,4 +143,28 @@ footer .follow-us a{
   }
 .padding {
     padding-top: 20px;
+}
+
+.titile-bg{
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    /* background-position: center center; */
+    height: 750px;
+    position: relative !important;
+    z-index: 0 !important;
+    background-position: 50% -25px !important;
+}
+
+.titile-name{
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    bottom: 50%;
+    font-family: 'Pangolin', cursive;
 }

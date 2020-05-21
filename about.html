@@ -1,27 +1,28 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About us</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i|Noto+Sans:400,400i,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i|Noto+Sans:400,400i,700"
-        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    
 
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" href="css/navbar.css">
+    
+    <script src="https://kit.fontawesome.com/16b5112f28.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <!-- HEADER -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
           <a class="navbar-brand" href="hompage.html">
             <img src="image/logov2.png" 
@@ -80,64 +81,203 @@
           </div>
         </div>
       </nav>
-      <div class="text-shadow"></div>
+
     </header>
 
     <!-- BODY -->
-    <div class="icon-bar">
-        <a href="#" class="google"><i class="fa fa-google"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    </div>
-    <div class="icon-cart-right">
-        <a href="#" class="cart"><i class="fa fa-cart-plus" style="font-size:48px;color:red"></i></a>
-    </div>
-    <div class="content">
-        <h4>Giới thiệu</h4>
-        <img id="img-quan-an" src="https://blog.traveloka.com/source/uploads/sites/9/2018/12/nhung-quan-an-ngon-o-sapa-thang-co-hikerlust.jpg" alt="Hình ảnh của quán">
-        <div class="article">
-            <a>Barista là gì?</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat, nisl at vulputate hendrerit, ipsum eros
-            bibendum magna, quis ullamcorper arcu mi ac nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu
-            efficitur risus. Vivamus volutpat in lorem ut elementum. Phasellus accumsan arcu mattis, tristique lorem a, tempus nibh.
-            Nam lobortis felis non feugiat facilisis.</p>
-            
-            <a>Tầm nhìn, giá trị cốt lõi</a>
-            <p>Proin pretium ultrices augue. Donec a urna in nunc maximus iaculis at id nulla. Suspendisse potenti. Integer blandit
-            tincidunt nulla, nec placerat felis maximus eu. Pellentesque est dolor, cursus quis metus at, accumsan egestas sapien.
-            Etiam ut ipsum vel neque auctor molestie eget vitae nunc.</p>
-        </div>
 
-        
-        <div class="map-contact">
-            <hr width="50%">
-            <iframe class="map-iframe"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1236023274328!2d106.80402001462339!3d10.878202492252488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8afbfc45a51%3A0x1398270b44ee3abf!2sKTX%20khu%20A%20-%20%C4%90HQG%20TPHCM!5e0!3m2!1svi!2s!4v1589094542591!5m2!1svi!2s"
-                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0">
-              </iframe>
+    <main style="background: url('./image/bg_4.jpg')">
+
+      <div class="order-now">
+        <a href="cart.html">
+          <img src="image/buy-now-icon.jpg" alt="buy now" 
+          class="order-now-btn">
+        </a>
+      </div>
+
+      <div class="titile-bg" style="background: url('./image/bg_3.jpg')";>
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="titile-name">Về chúng tôi</div>
+          </div>
         </div>
-    </div>
+        <div class="text-shadow"></div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 px-0 mx-0">
+            <div class="our-story-left">
+              <img src="image/about.jpg" alt="out story" class="img-our-story-left">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center abcd">
+            <div class="our-story-right-content">
+              <h2 class="our-story-right-title">
+                Câu chuyện về baristas
+              </h2>
+              <div class="our-story-right-detail">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                In pretium sagittis nisi, sed varius mauris euismod in. 
+                Ut eu cursus ipsum, eget viverra tortor. 
+                Pellentesque suscipit est ac tortor maximus imperdiet. 
+                Sed blandit lacinia quam, eu tincidunt est imperdiet eget. 
+                Donec porta vehicula turpis quis aliquet.
+                Nam venenatis quis arcu non bibendum. Aenean volutpat sodales commodo. Aliquam non faucibus dolor. 
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid px-0 mx-0">
+        <div class="row titile-bg px-0 mx-0" style="background:url('/image/bg_1.jpg'); width:100% ; position: relative; height: 440px;">
+          <div class="container our-vision align-self-center ">
+            <div class="row ">
+              <div class="col-lg-12 text-center">
+                <h2 class="our-story-right-title ">
+                  Tầm nhìn, giá trị cốt lõi
+                </h2>
+              </div>
+              <div class="col-lg-12">
+                <ul class="our-story-right-detail text-center">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>In pretium sagittis nisi, sed varius mauris euismod in. </li>
+                  <li>Ut eu cursus ipsum, eget viverra tortor. </li>
+                  <li>Pellentesque suscipit est ac tortor maximus imperdiet. </li>
+                </ul>
+              </div>              
+            </div>
+          </div>
+          <div class="text-shadow"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid about-our-menu">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="our-menu-left">
+                <h2 class="our-menu-left-title">
+                  Menu của chúng tôi
+                </h2>
+                <div class="our-menu-left-detail">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  In pretium sagittis nisi, sed varius mauris euismod in. 
+                  Ut eu cursus ipsum, eget viverra tortor. 
+                  Pellentesque suscipit est ac tortor maximus imperdiet. 
+                  Sed blandit lacinia quam, eu tincidunt est imperdiet eget.
+                </div>
+                <button class="news-btn btn1 my-3 float-right" style="color: #c49b63;">
+                  Xem Thêm
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="menu-entry" >
+                    <a href="#" class="about-our-menu-img" style="background:url('./image/menu-1.jpg')"></a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-entry mt-lg-4" >
+                    <a href="#" class="about-our-menu-img" style="background:url('./image/menu-2.jpg')"></a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-entry" >
+                    <a href="#" class="about-our-menu-img" style="background:url('./image/menu-3.jpg')"></a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu-entry  mt-lg-4" >
+                    <a href="#" class="about-our-menu-img" style="background:url('./image/menu-4.jpg')"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+              
+      
+      <div class="container">
+        <div class="row py-3">
+          <h2 class="our-story-right-title">
+            Vị trí của Baristas
+          </h2>
+        </div>
+        <div class="row py-3">
+          <iframe class="map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1236023274328!2d106.80402001462339!3d10.878202492252488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8afbfc45a51%3A0x1398270b44ee3abf!2sKTX%20khu%20A%20-%20%C4%90HQG%20TPHCM!5e0!3m2!1svi!2s!4v1589094542591!5m2!1svi!2s"
+          frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0">
+          </iframe>
+        </div>
+      </div>
+      
+  
+
+    </main>
     
 
-</body>
-<script>
-    function responsiveBanner() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
 
+      <footer>
+          <div class="container ">
+             <div class="row padding mx-0">
+                <div class="col-md-4 d-flex justify-content-center align-self-center footer-bg">
+                   <ul>
+                      Giờ mở cửa
+                      <li>Thứ Hai - Thứ Sáu: 8:00 - 22:00</li>
+                      <li>Cuối tuần: 7:00 - 23:00</li>
+                   </ul>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-self-center footer-bg">
+                   <ul>
+                      Liên hệ
+                      <li>
+                         Phone: 1800-1008
+                      </li>
+                      <li>  
+                         Email: baristacoffee@gmail.com
+                      </li>
+                   </ul>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-self-center footer-bg">
+                   <ul>
+                      Địa chỉ
+                      <li>Địa chỉ 1:...</li>
+                      <li>Địa chỉ 2:...</li>
+                      <li>Địa chỉ 3:...</li>
+                   </ul>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-sm-12 footer-bg">
+                   <hr color="white" style="width: 100%;">
+                   <div class="center follow-us">
+                      Theo dõi chúng tôi tại:
+                      <a href="#"><i class="fa fa-facebook-square"></i></a>
+                      <span>
+                      <a href="#"><i class="fa fa-instagram" style="height: 30; width: 30;"></i></a>
+                      </span>   
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="text-shadow"></div>
+      </footer>
 
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
-  
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    <script src="js/main.js"></script> 
+
+</body>
+</html>
