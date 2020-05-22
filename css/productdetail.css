@@ -161,3 +161,15 @@ position: relative;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+
+.news-details-title{
+    color: black !important;
+}
+
+.comment-body > h3{
+    color: black !important;
+}
+
+.quantity-form{
+    width: 15% !important;
+}

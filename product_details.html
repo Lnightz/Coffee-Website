@@ -14,6 +14,7 @@
 
       <link rel="stylesheet" href="css/navbar.css">
       <link rel="stylesheet" href="css/productdetail.css">
+      <link rel="stylesheet" href="css/news.css">
    </head>
    <body>
 
@@ -127,6 +128,10 @@
                                    </a>
                                 </li>
                             </ul>
+                            <div class="ordered-quantity d-flex my-2 align-items-center">
+                               <p style="margin: 0 !important">Số lượng:</p>
+                               <input type="number" min="0" class="form-control quantity-form ml-2">
+                            </div>
                             <div class="tab-content" id="pills-tabContent1">
                             <div class="tab-pane fade show active" id="pills-home1" role="tabpanel" aria-labelledby="pills-home-tab1">
                             <div class="prices d-flex ">
@@ -160,7 +165,54 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
+                           <ul class="comment-list">
+                              <li class="comment">
+                                 <div class="vcard bio">
+                                       <img src="image/avatar.jpg" alt="">
+                                 </div>
+                                 <div class="comment-body">
+                                       <h3>Duy Thiện</h3>
+                                       <div class="meta"> 22 Tháng năm, 2020 at 2:21 pm</div>
+                                       <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                          Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde 
+                                          architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et.
+                                       </p>
+                                       <p>
+                                          <a href="#" class="reply">Reply</a>
+                                       </p>
+                                 </div>
+                                 <ul class="children">
+                                       <li class="comment">
+                                          <div class="vcard bio">
+                                             <img src="image/avatar-1.jpg" alt="">
+                                          </div>
+                                          <div class="comment-body">
+                                             <h3>Thái Hòa</h3>
+                                             <div class="meta"> 22 Tháng năm, 2020 at 2:21 pm</div>
+                                             <p>
+                                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                                   Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde 
+                                                   architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et.
+                                             </p>
+                                             <p>
+                                                   <a href="#" class="reply">Reply</a>
+                                             </p>
+                                          </div>
+                                       </li>
+                                 </ul>
+                              </li>
+                           </ul>
+                           <h3 class="my-2 news-details-title">Hãy để lại bình luận của bạn</h3>
+                           <div class="form-group">
+                              <label for="message">Bình luận</label>
+                              <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                           </div>
+                           <div class="news-content-details">
+                              <div class="form-group">
+                                 <input type="submit" value="Gửi" class="btn py-3 px-4 btn-primary">
+                              </div>
+                           </div>
                         </div>
                       </div>
                 </div>
