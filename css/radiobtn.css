@@ -3,7 +3,6 @@
   display: block;
   margin: 10px 0;
   position: relative;
-  border-radius: 10px;
 }
 
 .inputGroup label {
@@ -66,6 +65,7 @@
   -webkit-transform: translate(-50%, -50%) scale3d(56, 56, 1);
           transform: translate(-50%, -50%) scale3d(56, 56, 1);
   opacity: 1;
+  border-radius: 10px;
 }
 
 .inputGroup input:checked ~ label:after {
